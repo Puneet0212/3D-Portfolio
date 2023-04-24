@@ -324,7 +324,7 @@ import {
       icon: netflix,
       image: netflixclone,
       source_code_link: "https://github.com/Puneet0212/netflix-clone.git",
-      deployed_link: "https://netflix-clone-79dv7ungh-puneet0212.vercel.app/login"
+      deployed_link: "https://netflix-clone-puneet0212.vercel.app"
     },
     {
       name: "Amazon clone",
@@ -350,7 +350,7 @@ import {
       icon: amazon,
       image: amazonscreen,
       source_code_link: "https://github.com/Puneet0212/Amazon-Clone-master-2.git",
-      deployed_link: "https://amazon-clone0212.netlify.app"
+      deployed_link: "https://amazon-clone1202.netlify.app"
     },
     {
       name: "Coffee Connoissuer",

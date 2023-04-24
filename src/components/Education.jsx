@@ -46,7 +46,7 @@ const Education = () => {
    <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          My Educational Qualifications...
+          My Educational Qualifications....
         </p>
         <h2 className={styles.sectionHeadText}>
           Academics.

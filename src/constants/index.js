@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     eduvance,
+    lavin,
     sdsu,
     atharva,
     netflix,
@@ -74,7 +75,7 @@ import {
     //   icon: mobile,
     // },
     {
-      title: "Backend Developer",
+      title: "Enthusiastic Software Developer",
       icon: backend,
     },
     {
@@ -181,34 +182,53 @@ import {
 
   const institutes = [
     {
+      institute_name: "San Diego State University, CA",
+      degree: "Master's in Computer Science",
+      icon: sdsu,
+      iconBg: "#383E56",
+      date: "August 2022 - May 2024",
+      cgpa: "3.84 / 4.0",
+    },
+    {
       institute_name: "Atharva College of Engineering, Mumbai University",
       degree: "B.E. in Computer Engineering",
       icon: atharva,
       iconBg: "#383E56",
       date: "August 2017 - July 2021",
       cgpa: "9.09 / 10.0",
-      // points: [
-      //   "Analyzed and processed complex data sets using advanced querying, visualization and analytics tools",
-      //   "Worked with industrial professionals and got acquainted with basic industrial skills",
-      //   "Devoted special punctuality for completion of projects within the deadline",
-      // ]
     },
 
-    {
-      institute_name: "San Diego State University, CA",
-      degree: "Master's in Computer Science",
-      icon: sdsu,
-      iconBg: "#383E56",
-      date: "August 2022 - May 2024",
-      cgpa: "3.67 / 4.0",
-      // points: [
-      //   "Analyzed and processed complex data sets using advanced querying, visualization and analytics tools",
-      //   "Worked with industrial professionals and got acquainted with basic industrial skills",
-      //   "Devoted special punctuality for completion of projects within the deadline",
-      // ]
-    },
+    
   ]
   const experiences = [
+    {
+      title: "Website Designer and Salesforce Developer",
+      company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
+      icon: lavin,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [
+        "Revamped the website layout utilizing ReactJS, HTML, CSS, and JavaScript, leading to a substantial enhancement in UI rendering speed",
+        "Innovated by developing modular components, elevating both efficiency and maintainability",
+        "Implemented Web-to-Leads web form and seamlessly migrated data to Salesforce using Apex Data Loader",
+        "Implemented Visualforce pages for emails and RESTful Web-service callouts for payment processing"
+      ]
+    },
+    {
+      title: "Sales Associate",
+      company_name: "Aztecs Shop - SDSU Bookstore",
+      icon: sdsu,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Feb 2023",
+      points: [
+        "Greeted customers and provided exceptional customer service",   
+        "Answered customer questions and offered recommendations based on customer preferences",
+        "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
+        "Provided feedback to management on customer preferences and buying trends",
+      ],
+    },
+
+
     {
       title: "Machine Learning Intern",
       company_name: "Eduvance",
@@ -216,25 +236,13 @@ import {
       iconBg: "#383E56",
       date: "June 2020 - July 2020",
       points: [
-        "Analyzed and processed complex data sets using advanced querying, visualization and analytics tools",
-        "Worked with industrial professionals and got acquainted with basic industrial skills",
-        "Devoted special punctuality for completion of projects within the deadline",
+        "Implemented various machine learning models to accurately classify surviving passengers on the Titanic, demonstrating strong skills in data analysis",
+        "Utilized K-Means clustering algorithm to identify and visualize clusters of Asian Indian students studying globally, displaying a deep understanding of unsupervised machine learning techniques",
+        "Worked on the deployment of Machine Learning models on IBM cloud utilizing IBM Watson"
       ]
     },
 
-    {
-        title: "Sales Associate",
-        company_name: "Aztecs Shop - SDSU Bookstore",
-        icon: sdsu,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Feb 2023",
-        points: [
-          "Greeted customers and provided exceptional customer service",   
-          "Answered customer questions and offered recommendations based on customer preferences",
-          "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
-          "Provided feedback to management on customer preferences and buying trends",
-        ],
-      },
+    
     // {
     //   title: "React Native Developer",
     //   company_name: "Tesla",

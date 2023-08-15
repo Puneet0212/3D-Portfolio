@@ -32,6 +32,7 @@ import postman from "./tech/postman.webp";
 
 
 import meta from "./company/meta.png";
+import lavin from "./company/lavin.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -84,6 +85,7 @@ export {
   jobit,
   tripguide,
   eduvance,
+  lavin,
   sdsu,
   atharva,
   netflix,

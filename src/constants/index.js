@@ -67,7 +67,7 @@ import {
   
   const services = [
     {
-      title: "Front-end Developer",
+      title: "Full-stack Web Developer",
       icon: web,
     },
     // {
@@ -187,7 +187,7 @@ import {
       icon: sdsu,
       iconBg: "#383E56",
       date: "August 2022 - May 2024",
-      cgpa: "3.84 / 4.0",
+      cgpa: "3.81 / 4.0",
     },
     {
       institute_name: "Atharva College of Engineering, Mumbai University",
@@ -206,13 +206,14 @@ import {
       company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
       icon: lavin,
       iconBg: "#383E56",
-      date: "May 2023 - Present",
+      date: "May 2023 - May 2024",
       points: [
-        "Revamped the website layout utilizing ReactJS, HTML, CSS, and JavaScript, leading to a substantial enhancement in UI rendering speed",
-        "Innovated by developing modular components, elevating both efficiency and maintainability",
-        "Implemented Web-to-Leads web form and seamlessly migrated data to Salesforce using Apex Data Loader",
-        "Implemented Visualforce pages for emails and RESTful Web-service callouts for payment processing"
+        "Designed, developed, tested and debugged the website demonstrating the ability to execute new features with excellence using HTML, CSS, and JavaScript, resulting in a 25% improvement in UI rendering speed.",
+        "Engineered modular components and implemented streamlined processes, reducing bug-fix time by 30% and minimizing code duplication by 25%.",
+        "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
+        "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
       ]
+      
     },
     {
       title: "Sales Associate",

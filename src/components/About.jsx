@@ -55,9 +55,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a graduate student pursuing a Masters in Computer Science at San Diego State University, I am a dedicated software developer with a passion for innovation. With experience in Javascript and proficiency in popular libraries like React.js, Next.js, and Node.js, I have honed my skills in developing new projects and exploring emerging technologies.
-        <br/>
-        My constant pursuit of knowledge and the willingness to unlearn and relearn has enabled me to become a quick learner, always eager to take on new challenges. I am seeking an opportunity to apply my skills and knowledge in a globally challenging environment, where I can push myself to be the best version of myself and make meaningful contributions to the field of Computer Science. 
+        Having completed my Masters in Computer Science at San Diego State University, I am a dedicated software developer with a passion for innovation. Proficient in JavaScript, Java, and Python, I excel in crafting dynamic web experiences with HTML5, CSS3, and a spectrum of cutting-edge tools like TailwindCSS and Bootstrap. My expertise extends to a plethora of frameworks including React.js, Next.js, and Node.js, empowering me to develop scalable and responsive applications. Leveraging Docker, Kubernetes, and Git, I ensure seamless deployment and version control, while my familiarity with Firebase, Magic, and Postman enhances functionality and testing efficiency. With robust database management skills spanning MySQL, MongoDB, and PostgreSQL, alongside adeptness in diverse operating systems such as Windows, Mac, and Linux, I am equipped to deliver innovative solutions across the technological landscape.
+        <br/><br />
+        My constant pursuit of knowledge and the willingness to learn and unlearn has enabled me to become a quick learner, always eager to take on new challenges. I am seeking an opportunity to apply my skills and knowledge in a globally challenging environment, where I can push myself to be the best version of myself and make meaningful contributions to the field of Computer Science. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

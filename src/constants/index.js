@@ -20,7 +20,6 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
     threejs,
     eduvance,
     lavin,

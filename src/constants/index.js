@@ -333,7 +333,7 @@ import {
       icon: netflix,
       image: netflixclone,
       source_code_link: "https://github.com/Puneet0212/netflix-clone.git",
-      deployed_link: "https://netflix-clone-puneet0212.vercel.app"
+      deployed_link: "https://cinemagic.puneetpatil.com/login"
     },
     {
       name: "Amazon clone",
@@ -359,7 +359,7 @@ import {
       icon: amazon,
       image: amazonscreen,
       source_code_link: "https://github.com/Puneet0212/Amazon-Clone-master-2.git",
-      deployed_link: "https://amazon-clone1202.netlify.app"
+      deployed_link: "https://shoppy.puneetpatil.com"
     },
     {
       name: "Coffee Connoissuer",
@@ -381,7 +381,7 @@ import {
       icon: coffee,
       image: coffeescreen,
       source_code_link: "https://github.com/Puneet0212/coffee-connoisseur.git",
-      deployed_link: "https://coffee-connoisseur-b15ph12ny-puneet0212.vercel.app",
+      deployed_link: "https://coffeeconnoisseur.puneetpatil.com",
     },
   ];
   

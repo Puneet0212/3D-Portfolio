@@ -40,6 +40,7 @@ import {
     filesyncerscreen,
     facedetectionscreen,
     takenmind,
+    bmsscreen,
 
 
   } from "../assets";
@@ -424,6 +425,34 @@ import {
       source_code_link: "https://github.com/Puneet0212/Amazon-Clone-master-2.git",
       deployed_link: "https://shoppy.puneetpatil.com"
     },
+
+    {
+      name: "Brand Monitoring System",
+      description: "Architected an advanced tool with 87% accuracy using Tweepy  for tweet collection and NLTK for data preprocessing and classification.",     
+        tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nltk",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tweepy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "excel",
+          color: "blue-text-gradient",
+        }
+      ],
+      icon: amazon,
+      image: bmsscreen,
+      source_code_link: "https://www.irjet.net/archives/V8/i4/IRJET-V8I4971.pdf",
+      deployed_link: "https://shoppy.puneetpatil.com"
+    },
+
     {
       name: "Coffee Connoissuer",
       description: "I built an interactive website using SSR, ISR, and CSR features of NextJS. The website uses the Foursquare Places API to fetch nearby cafes and generates dynamic pages for each cafe. Airtable was used to store the cafe data systematically.",

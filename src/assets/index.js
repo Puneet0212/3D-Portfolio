@@ -56,6 +56,7 @@ import amazonscreen from './project/amazonclone.png';
 import coffeescreen from './project/coffeeconno.png';
 import facedetectionscreen from './project/face-detection.jpeg';
 import filesyncerscreen from './project/file-syncer.jpeg';
+import bmsscreen from './project/bms.jpg';
 
 export {
   logo,
@@ -105,5 +106,7 @@ export {
   postman,
   facedetectionscreen,
   filesyncerscreen,
-  takenmind
+  takenmind,
+  bmsscreen,
+
 };

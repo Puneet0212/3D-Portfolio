@@ -214,7 +214,7 @@ import {
       company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
       icon: lavin,
       iconBg: "#383E56",
-      date: "May 2023 - May 2024",
+      date: "May 2023 - June 2024",
       points: [
         "Designed, developed, tested and debugged the website demonstrating the ability to execute new features with excellence using HTML, CSS, and JavaScript, resulting in a 25% improvement in UI rendering speed.",
         "Engineered modular components and implemented streamlined processes, reducing bug-fix time by 30% and minimizing code duplication by 25%.",

@@ -1,22 +1,50 @@
 import React from 'react';
 import { SectionWrapper } from '../hoc';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { textVariant } from '../utils/motion';
 
 function Resume() {
   return (
-    <div style={styles.container}>
-      <a href="/Puneet_Patil_Resume.pdf" download="Puneet_Patil_Resume.pdf" style={styles.button}>
-        Download My Resume
-      </a>
+    <div>
+        <motion.div variants={textVariant()}>
+            <p className={styles.sectionSubText}>
+            My Resume....
+            </p>
+            <h2 className={styles.sectionHeadText}>
+            Resume.
+            </h2>
+        </motion.div>
+
+            <div className='w-full flex'>
+                <motion.p
+                className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+                >
+                    Click the button below to download my resume for your reference.
+                </motion.p>
+            </div>
+
+
+            <div style={style.container}>
+                <a href="/Puneet_Patil_Resume.pdf" download="Puneet_Patil_Resume.pdf" style={style.button}
+                    onMouseEnter={(e) => (e.target.style.backgroundColor = '#6a3dcd')}
+                    onMouseLeave={(e) => (e.target.style.backgroundColor = '#804dee')}
+                >
+                    Download my Resume
+                </a>
+            </div>
+
+        
     </div>
   );
 }
 
-const styles = {
+const style = {
   container: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    // height: '100vh', // full height of the viewport
+    height: '15vh', // full height of the viewport
   },
   button: {
     backgroundColor: '#804dee',
@@ -31,4 +59,4 @@ const styles = {
   },
 };
 
-export default SectionWrapper(Resume, "resume");
+export default SectionWrapper(Resume, "resume")

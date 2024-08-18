@@ -396,7 +396,7 @@ import {
       ],
       icon: netflix,
       image: filesyncerscreen,
-      source_code_link: "#",
+      source_code_link: "https://github.com/Puneet0212/File-Syncer.git",
       deployed_link: "https://cinemagic.puneetpatil.com/login"
     },
     {

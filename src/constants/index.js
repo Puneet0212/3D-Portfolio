@@ -37,6 +37,10 @@ import {
     hasura,
     firebase,
     postman,
+    filesyncerscreen,
+    facedetectionscreen,
+    takenmind,
+
 
   } from "../assets";
   
@@ -58,9 +62,14 @@ import {
       title: "Experience",
     },
     {
+      id: "resume",
+      title: "Resume",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
+    
   ];
   
   const services = [
@@ -200,7 +209,7 @@ import {
   ]
   const experiences = [
     {
-      title: "Website Designer and Salesforce Developer",
+      title: "Software Developer",
       company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
       icon: lavin,
       iconBg: "#383E56",
@@ -213,31 +222,43 @@ import {
       ]
       
     },
-    {
-      title: "Sales Associate",
-      company_name: "Aztecs Shop - SDSU Bookstore",
-      icon: sdsu,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Feb 2023",
-      points: [
-        "Greeted customers and provided exceptional customer service",   
-        "Answered customer questions and offered recommendations based on customer preferences",
-        "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
-        "Provided feedback to management on customer preferences and buying trends",
-      ],
-    },
+    // {
+    //   title: "Sales Associate",
+    //   company_name: "Aztecs Shop - SDSU Bookstore",
+    //   icon: sdsu,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Feb 2023",
+    //   points: [
+    //     "Greeted customers and provided exceptional customer service",   
+    //     "Answered customer questions and offered recommendations based on customer preferences",
+    //     "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
+    //     "Provided feedback to management on customer preferences and buying trends",
+    //   ],
+    // },
 
 
     {
-      title: "Machine Learning Intern",
+      title: "Software Engineer (Machine Learning) Intern",
       company_name: "Eduvance",
       icon: eduvance,
       iconBg: "#383E56",
       date: "June 2020 - July 2020",
       points: [
-        "Implemented various machine learning models to accurately classify surviving passengers on the Titanic, demonstrating strong skills in data analysis",
-        "Utilized K-Means clustering algorithm to identify and visualize clusters of Asian Indian students studying globally, displaying a deep understanding of unsupervised machine learning techniques",
-        "Worked on the deployment of Machine Learning models on IBM cloud utilizing IBM Watson"
+        "Analyzed and visualized data to classify Titanic passengers, achieving 82% accuracy, demonstrating expertise in data analysis, statistical modeling, and algorithm optimization",
+        "Deployed machine learning models on IBM Cloud utilizing IBM Watson, streamlining the deployment process, showcasing expertise in cloud-based machine learning solutions and Linux environments",
+      ]
+    },
+
+    {
+      title: "Data Analyst Intern",
+      company_name: "TakenMind Technologies",
+      icon: takenmind,
+      iconBg: "#383E56",
+      date: "September 2019 - November 2019",
+      points: [
+       "Collected and cleaned over 10,000 data points using Microsoft Excel, and leveraged Python libraries (NumPy, Pandas) to reduce data processing time by 30%",
+       "Created 5 insightful dashboards using Seaborn and Matplotlib, increasing stakeholder understanding of key metrics by 40%",
+       "Collaborated with a 6-member team on data presentation and reporting, supporting data-driven decisions that led to a 20% reduction in process bottlenecks",
       ]
     },
 
@@ -331,6 +352,50 @@ import {
       icon: netflix,
       image: netflixclone,
       source_code_link: "https://github.com/Puneet0212/netflix-clone.git",
+      deployed_link: "https://cinemagic.puneetpatil.com/login"
+    },
+    {
+      name: "Real-Time Video Face Detection & Verification",
+      description: "Engineered a high-performance Node.js API for a video-based KYC solution, achieving 95% verification accuracy through advanced TensorFlow algorithms for real-time face detection and robust QR code scanning capabilities using JSQR.",
+      tags: [
+        {
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tensorFlow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jsqr",
+          color: "pink-text-gradient",
+        },
+      ],
+      icon: netflix,
+      image: facedetectionscreen,
+      source_code_link: "https://github.com/Puneet0212/Face-Detection.git",
+      deployed_link: "https://cinemagic.puneetpatil.com/login"
+    },
+    {
+      name: "File Syncer",
+      description: "Developed a Python-based distributed file sharing system utilizing RPC for real-time synchronization between machines, achieving 99% replication accuracy and ensuring robust performance through unit testing.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rpc",
+          color: "green-text-gradient",
+        },
+        {
+          name: "unit testing",
+          color: "pink-text-gradient",
+        },
+      ],
+      icon: netflix,
+      image: filesyncerscreen,
+      source_code_link: "#",
       deployed_link: "https://cinemagic.puneetpatil.com/login"
     },
     {

@@ -43,6 +43,7 @@ import tripguide from "./tripguide.png";
 
 
 import eduvance from './company/eduvance.png';
+import takenmind from './company/takenmind.jpeg';
 import sdsu from './company/sdsu.png';
 import atharva from './institute/atharva.jpeg';
 
@@ -53,6 +54,8 @@ import coffee from './project/coffee.png';
 import netflixclone from './project/netflixclone.webp';
 import amazonscreen from './project/amazonclone.png';
 import coffeescreen from './project/coffeeconno.png';
+import facedetectionscreen from './project/face-detection.jpeg';
+import filesyncerscreen from './project/file-syncer.jpeg';
 
 export {
   logo,
@@ -100,5 +103,7 @@ export {
   hasura,
   firebase,
   postman,
-
+  facedetectionscreen,
+  filesyncerscreen,
+  takenmind
 };

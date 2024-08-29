@@ -237,6 +237,19 @@ import {
     //   ],
     // },
 
+    {
+      title: "Software Engineer",
+      company_name: "GreetGood Retail",
+      icon: threejs,
+      iconBg: "#383E56",
+      date: "August 2020 - July 2022",
+      points: [
+        "Spearheaded the development of a high-performance web application using React, Redux, CSS3/SASS and Typescript, leveraging Node.js for server-side operations, resulting in a 40% increase in user engagement.",
+        "Optimized front-end build processes using Webpack, Babel, and NPM, while implementing comprehensive unit and integration testing with Jest, reducing build times by 50%, all while maintaining version control using Git/GitHub.",
+        "Improved data management by optimizing storage with MongoDB, implementing caching strategies with Redis, and integrating front-end interfaces with back-end technologies, improving query response times by 30%.",
+        "Architected RESTful APIs using Python, enhancing system scalability and performance, resulting in a 30% reduction in response times and led the migration of legacy systems to a microservices architecture using Docker and Kubernetes.",
+      ]
+    },
 
     {
       title: "Software Engineer (Machine Learning) Intern",

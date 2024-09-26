@@ -41,7 +41,9 @@ import {
     facedetectionscreen,
     takenmind,
     bmsscreen,
-
+    bankscreen,
+    tgscreen,
+    cicdscreen,
 
   } from "../assets";
   
@@ -210,14 +212,16 @@ import {
   ]
   const experiences = [
     {
-      title: "Software Developer",
+      title: "Senior Software Developer",
       company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
       icon: lavin,
       iconBg: "#383E56",
-      date: "May 2023 - June 2024",
+      date: "May 2023 - May 2024",
       points: [
-        "Designed, developed, tested and debugged the website demonstrating the ability to execute new features with excellence using HTML, CSS, and JavaScript, resulting in a 25% improvement in UI rendering speed.",
-        "Engineered modular components and implemented streamlined processes, reducing bug-fix time by 30% and minimizing code duplication by 25%.",
+        "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%",
+        "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users",
+        "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests",
+        "Mentored and led a team of 5 developers, implementing robust end to end testing using Jest, achieving 90% code coverage and reducing bug reports by 35%, while utilizing Git for version control and collaboration",
         "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
         "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
       ]
@@ -238,16 +242,20 @@ import {
     // },
 
     {
-      title: "Software Engineer",
-      company_name: "GreetGood Retail",
+      title: "Full-stack Software Engineer",
+      company_name: "GreetGood Retail (E-commerce Startup)",
       icon: threejs,
       iconBg: "#383E56",
-      date: "August 2020 - July 2022",
+      date: "May 2019 - July 2022",
       points: [
-        "Spearheaded the development of a high-performance web application using React, Redux, CSS3/SASS and Typescript, leveraging Node.js for server-side operations, resulting in a 40% increase in user engagement.",
-        "Optimized front-end build processes using Webpack, Babel, and NPM, while implementing comprehensive unit and integration testing with Jest, reducing build times by 50%, all while maintaining version control using Git/GitHub.",
-        "Improved data management by optimizing storage with MongoDB, implementing caching strategies with Redis, and integrating front-end interfaces with back-end technologies, improving query response times by 30%.",
-        "Architected RESTful APIs using Python, enhancing system scalability and performance, resulting in a 30% reduction in response times and led the migration of legacy systems to a microservices architecture using Docker and Kubernetes.",
+        "Spearheaded the development of a full-stack e-commerce platform using React, Redux, TypeScript, PostgreSQL, and Spring Boot, serving 50K+ users with a 35% increase in user engagement",
+        "Engineered RESTful APIs with Spring Boot, integrating with React & PostgreSQL, handling 10K+ daily transactions",
+        "Enhanced application security with Spring Security (OAuth2, JWT, RBAC), cutting security incidents by 60%",
+        "Optimized database performance using Hibernate ORM and complex SQL queries, enhancing throughput by 45%",
+        "Incorporated Redis caching & Kafka for real-time data, cutting database load by 50% & improving app responsiveness",
+        "Implemented comprehensive unit and integration testing strategies using JUnit and Mockito in agile environments, following TDD principles and SDLC methodologies, reducing production issues by 40%",
+        "Automated the CI/CD pipeline using Jenkins and Docker, reducing manual efforts from 4 hours to 30 minutes",
+
       ]
     },
 
@@ -347,6 +355,63 @@ import {
   
   const projects = [
     {
+      name: "Covid19 Vaccine Slots Tracker",
+      description: "Architected a streaming-based notification system that integrates Kafka Streams, AWS Lambda, Maria DB, and Spring Boot with the CoWIN API to provide real-time vaccine availability alerts to 10,000+ users on Telegram.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "spring boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "kafka streams",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "aws lambda",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "maria db",
+          color: "green-text-gradient",
+        },
+      ],
+      icon: null, // Add the icon for this project if available
+      image: tgscreen, // Add the image for this project if available
+      source_code_link: "https://github.com/Puneet0212/Covid19-Vaccine-Slots-Tracker.git", 
+      deployed_link: null, // Add the deployed link if available
+    },
+    {
+      name: "Secured Online Banking Application",
+      description: "Engineered a secure online banking application with a React + Redux frontend and a backend using Spring Boot, Spring Security Crypto, JWT authentication, and Interceptors, ensuring a 40% drop in security vulnerabilities.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "spring security",
+          color: "blue-text-gradient",
+        },
+      ],
+      icon: null, // Add the icon for this project if available
+      image: bankscreen, // Add the image for this project if available
+      source_code_link: "https://github.com/Puneet0212/spring-boot-secure-banking-app.git", 
+      deployed_link: null, // Add the deployed link if available
+    },
+
+    {
       name: "Netflix clone",
       description: "I built a front-end clone of Netflix using NextJS, Magic, and Hasura Graph QL. The Home page is built using SSR, the Modal page using ISR, and the application features YouTube API integration to add favorite videos to the 'My List' section.",
       tags: [
@@ -368,6 +433,38 @@ import {
       source_code_link: "https://github.com/Puneet0212/netflix-clone.git",
       deployed_link: "https://cinemagic.puneetpatil.com/login"
     },
+    
+    {
+      name: "K8s CI/CD Pipeline",
+      description: "Automated Docker image creation and Kubernetes deployment on a multi-node AWS EC2 cluster using Jenkins, DockerHub, and Ansible for CI/CD.",
+      tags: [
+        {
+          name: "kubernetes",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "jenkins",
+          color: "green-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ansible",
+          color: "green-text-gradient",
+        },
+      ],
+      icon: null, // Add the icon for this project if available
+      image: cicdscreen, // Add the image for this project if available
+      source_code_link: null, 
+      deployed_link: null, 
+    },
+    
     {
       name: "Real-Time Video Face Detection & Verification",
       description: "Engineered a high-performance Node.js API for a video-based KYC solution, achieving 95% verification accuracy through advanced TensorFlow algorithms for real-time face detection and robust QR code scanning capabilities using JSQR.",

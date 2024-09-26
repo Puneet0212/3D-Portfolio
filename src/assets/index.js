@@ -56,7 +56,10 @@ import amazonscreen from './project/amazonclone.png';
 import coffeescreen from './project/coffeeconno.png';
 import facedetectionscreen from './project/face-detection.jpeg';
 import filesyncerscreen from './project/file-syncer.jpeg';
+import bankscreen from './project/bank.png';
 import bmsscreen from './project/bms.jpg';
+import tgscreen from './project/tg.jpeg';
+import cicdscreen from './project/cicd.png';
 
 export {
   logo,
@@ -108,5 +111,7 @@ export {
   filesyncerscreen,
   takenmind,
   bmsscreen,
-
+  bankscreen,
+  tgscreen,
+  cicdscreen,
 };

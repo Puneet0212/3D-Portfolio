@@ -95,23 +95,23 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
 
     // {
     //   name: "Bootstrap",
     //   icon: bootstrap,
     // },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -148,10 +148,10 @@ import {
       name: "MySQL",
       icon: mysql,
     },
-    {
-      name: "Hasura Graph QL",
-      icon: hasura,
-    },
+    // {
+    //   name: "Hasura Graph QL",
+    //   icon: hasura,
+    // },
     // {
     //   name: "Airtable",
     //   icon: reactjs,

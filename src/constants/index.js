@@ -77,7 +77,7 @@ import {
   
   const services = [
     {
-      title: "Full-stack Web Developer",
+      title: "Full-stack Software Developer",
       icon: web,
     },
     // {
@@ -85,7 +85,7 @@ import {
     //   icon: mobile,
     // },
     {
-      title: "Enthusiastic Software Developer",
+      title: "Oracle Certified Java Developer",
       icon: backend,
     },
     {
@@ -104,10 +104,10 @@ import {
       icon: css,
     },
 
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "Bootstrap",
+    //   icon: bootstrap,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -116,10 +116,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -156,10 +156,10 @@ import {
     //   name: "Airtable",
     //   icon: reactjs,
     // },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
+    // {
+    //   name: "Firebase",
+    //   icon: firebase,
+    // },
     {
       name: "Postman",
       icon: postman,
@@ -173,19 +173,19 @@ import {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
+    {
+      name: "git",
+      icon: git,
+    },
     
     // {
     //   name: "figma",
     //   icon: figma,
     // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    {
+      name: "docker",
+      icon: docker,
+    },
   ];
   
 
@@ -212,18 +212,47 @@ import {
   ]
   const experiences = [
     {
-      title: "Senior Software Developer",
+      title: "Full-stack Software Developer",
+      company_name: "Citi Bank - Iris Software",
+      icon: web,
+      iconBg: "#383E56",
+      date: "April 2025 - June 2025",
+      points: [
+        "Developed backend support for dynamic column selector in Java, enabling analysts to customize dashboards on demand & reducing manual report setup by 40% for 500+ users.",
+        "Implemented advanced filtering & toggle features for financial metrics, improving dashboard flexibility & driving 30% faster analysis in enterprise reporting workflows."
+      ]
+      
+    },
+    {
+      title: "Full-stack Software Developer",
+      company_name: "San Diego State University",
+      icon: sdsu,
+      iconBg: "#383E56",
+      date: "August 2024 - April 2025",
+      points: [
+        "Built a high-performance research platform with React, Spring Boot, & MySQL, increasing user retention by 30%.",
+        "Enhanced application security with Spring Security (OAuth2, JWT, RBAC), reducing security breaches by 85%.",
+      ]
+      
+    },
+    {
+      title: "Software Developer",
       company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
       icon: lavin,
       iconBg: "#383E56",
       date: "May 2023 - May 2024",
       points: [
-        "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%",
-        "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users",
-        "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests",
-        "Mentored and led a team of 5 developers, implementing robust end to end testing using Jest, achieving 90% code coverage and reducing bug reports by 35%, while utilizing Git for version control and collaboration",
-        "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
-        "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
+        "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%.",
+        "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users.",
+        "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests.",
+        "Integrated Web-to-Leads web form, facilitating the generation of 1000+ leads and seamlessly transferring lead data to Salesforce leveraging Apex Data Loader, ensuring data accuracy and streamlined workflow.",
+        "Formulated 450+ Visualforce email templates, increasing email response rates by 35%."
+        // "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%",
+        // "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users",
+        // "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests",
+        // "Mentored and led a team of 5 developers, implementing robust end to end testing using Jest, achieving 90% code coverage and reducing bug reports by 35%, while utilizing Git for version control and collaboration",
+        // "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
+        // "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
       ]
       
     },
@@ -246,16 +275,12 @@ import {
       company_name: "GreetGood Retail (E-commerce Startup)",
       icon: threejs,
       iconBg: "#383E56",
-      date: "May 2019 - July 2022",
+      date: "June 2021 - July 2022",
       points: [
-        "Spearheaded the development of a full-stack e-commerce platform using React, Redux, TypeScript, PostgreSQL, and Spring Boot, serving 50K+ users with a 35% increase in user engagement",
-        "Engineered RESTful APIs with Spring Boot, integrating with React & PostgreSQL, handling 10K+ daily transactions",
-        "Enhanced application security with Spring Security (OAuth2, JWT, RBAC), cutting security incidents by 60%",
-        "Optimized database performance using Hibernate ORM and complex SQL queries, enhancing throughput by 45%",
-        "Incorporated Redis caching & Kafka for real-time data, cutting database load by 50% & improving app responsiveness",
-        "Implemented comprehensive unit and integration testing strategies using JUnit and Mockito in agile environments, following TDD principles and SDLC methodologies, reducing production issues by 40%",
-        "Automated the CI/CD pipeline using Jenkins and Docker, reducing manual efforts from 4 hours to 30 minutes",
-
+        "Spearheaded the development of a full-stack e-commerce platform using React, TypeScript, PostgreSQL, and Spring Boot, serving 50K+ users with a 35% increase in user engagement.",
+        "Engineered scalable microservices with Spring Boot & Docker, improving system fault tolerance by 70%.",
+        "Boosted database performance using Hibernate ORM & Kafka, improving throughput by 45% & reducing database load by 50%.",
+        "Implemented comprehensive unit and integration testing strategies using JUnit and Mockito in agile environments, following TDD principles and SDLC methodologies, reducing production issues by 40%.",
       ]
     },
 
@@ -354,36 +379,36 @@ import {
   // ];
   
   const projects = [
-    {
-      name: "Covid19 Vaccine Slots Tracker",
-      description: "Architected a streaming-based notification system that integrates Kafka Streams, AWS Lambda, Maria DB, and Spring Boot with the CoWIN API to provide real-time vaccine availability alerts to 10,000+ users on Telegram.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "spring boot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "kafka streams",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "aws lambda",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "maria db",
-          color: "green-text-gradient",
-        },
-      ],
-      icon: null, // Add the icon for this project if available
-      image: tgscreen, // Add the image for this project if available
-      source_code_link: "https://github.com/Puneet0212/Covid19-Vaccine-Slots-Tracker.git", 
-      deployed_link: null, // Add the deployed link if available
-    },
+    // {
+    //   name: "Covid19 Vaccine Slots Tracker",
+    //   description: "Architected a streaming-based notification system that integrates Kafka Streams, AWS Lambda, Maria DB, and Spring Boot with the CoWIN API to provide real-time vaccine availability alerts to 10,000+ users on Telegram.",
+    //   tags: [
+    //     {
+    //       name: "java",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "spring boot",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "kafka streams",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "aws lambda",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "maria db",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   icon: null, // Add the icon for this project if available
+    //   image: tgscreen, // Add the image for this project if available
+    //   source_code_link: "https://github.com/Puneet0212/Covid19-Vaccine-Slots-Tracker.git", 
+    //   deployed_link: null, // Add the deployed link if available
+    // },
     {
       name: "Secured Online Banking Application",
       description: "Engineered a secure online banking application with a React + Redux frontend and a backend using Spring Boot, Spring Security Crypto, JWT authentication, and Interceptors, ensuring a 40% drop in security vulnerabilities.",
@@ -434,81 +459,81 @@ import {
       deployed_link: "https://cinemagic.puneetpatil.com/login"
     },
     
-    {
-      name: "K8s CI/CD Pipeline",
-      description: "Automated Docker image creation and Kubernetes deployment on a multi-node AWS EC2 cluster using Jenkins, DockerHub, and Ansible for CI/CD.",
-      tags: [
-        {
-          name: "kubernetes",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "jenkins",
-          color: "green-text-gradient",
-        },
-        {
-          name: "docker",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "aws",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ansible",
-          color: "green-text-gradient",
-        },
-      ],
-      icon: null, // Add the icon for this project if available
-      image: cicdscreen, // Add the image for this project if available
-      source_code_link: null, 
-      deployed_link: null, 
-    },
+    // {
+    //   name: "K8s CI/CD Pipeline",
+    //   description: "Automated Docker image creation and Kubernetes deployment on a multi-node AWS EC2 cluster using Jenkins, DockerHub, and Ansible for CI/CD.",
+    //   tags: [
+    //     {
+    //       name: "kubernetes",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "jenkins",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "docker",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "aws",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "ansible",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   icon: null, // Add the icon for this project if available
+    //   image: cicdscreen, // Add the image for this project if available
+    //   source_code_link: null, 
+    //   deployed_link: null, 
+    // },
     
-    {
-      name: "Real-Time Video Face Detection & Verification",
-      description: "Engineered a high-performance Node.js API for a video-based KYC solution, achieving 95% verification accuracy through advanced TensorFlow algorithms for real-time face detection and robust QR code scanning capabilities using JSQR.",
-      tags: [
-        {
-          name: "nodejs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tensorFlow",
-          color: "green-text-gradient",
-        },
-        {
-          name: "jsqr",
-          color: "pink-text-gradient",
-        },
-      ],
-      icon: netflix,
-      image: facedetectionscreen,
-      source_code_link: "https://github.com/Puneet0212/Face-Detection.git",
-      deployed_link: "https://cinemagic.puneetpatil.com/login"
-    },
-    {
-      name: "File Syncer",
-      description: "Developed a Python-based distributed file sharing system utilizing RPC for real-time synchronization between machines, achieving 99% replication accuracy and ensuring robust performance through unit testing.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "rpc",
-          color: "green-text-gradient",
-        },
-        {
-          name: "unit testing",
-          color: "pink-text-gradient",
-        },
-      ],
-      icon: netflix,
-      image: filesyncerscreen,
-      source_code_link: "https://github.com/Puneet0212/File-Syncer.git",
-      deployed_link: "https://cinemagic.puneetpatil.com/login"
-    },
+    // {
+    //   name: "Real-Time Video Face Detection & Verification",
+    //   description: "Engineered a high-performance Node.js API for a video-based KYC solution, achieving 95% verification accuracy through advanced TensorFlow algorithms for real-time face detection and robust QR code scanning capabilities using JSQR.",
+    //   tags: [
+    //     {
+    //       name: "nodejs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tensorFlow",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "jsqr",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   icon: netflix,
+    //   image: facedetectionscreen,
+    //   source_code_link: "https://github.com/Puneet0212/Face-Detection.git",
+    //   deployed_link: "https://cinemagic.puneetpatil.com/login"
+    // },
+    // {
+    //   name: "File Syncer",
+    //   description: "Developed a Python-based distributed file sharing system utilizing RPC for real-time synchronization between machines, achieving 99% replication accuracy and ensuring robust performance through unit testing.",
+    //   tags: [
+    //     {
+    //       name: "python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "rpc",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "unit testing",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   icon: netflix,
+    //   image: filesyncerscreen,
+    //   source_code_link: "https://github.com/Puneet0212/File-Syncer.git",
+    //   deployed_link: "https://cinemagic.puneetpatil.com/login"
+    // },
     {
       name: "Amazon clone",
       description: "I built a dynamic website using ReactJS, NodeJS, Firebase, and Stripe. The NodeJS server was deployed on Azure app service as a serverless function. Users can order multiple products and use Stripe for payment processing.",     

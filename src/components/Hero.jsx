@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Backend-leaning Full-Stack Engineer & a part-time System Design Nerd!
+            Backend-leaning Full-Stack Engineer and a part-time System Design Nerd.
             {/* I'm a Full-stack Developer! */}
           </p>
         </div>

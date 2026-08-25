@@ -396,7 +396,7 @@ import {
     ]
   },
   {
-    title: "Web Developer",
+    title: "Software Developer",
     company_name: "San Diego State University",
     icon: sdsu,
     iconBg: "#383E56",

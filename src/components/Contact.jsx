@@ -38,7 +38,7 @@ const Contact = () => {
         from_name: form.name,
         to_name: 'Puneet',
         from_email: form.email,
-        to_email: 'pspatil@sdsu.edu',
+        to_email: 'puneetpatil.w@gmail.com',
         message: form.message
       },
       'd1VSaXFklJhqr9FwA'

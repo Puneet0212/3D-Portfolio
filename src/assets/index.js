@@ -36,6 +36,7 @@ import lavin from "./company/lavin.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import citi from "./company/citi.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -114,4 +115,5 @@ export {
   bankscreen,
   tgscreen,
   cicdscreen,
+  citi
 };

@@ -44,7 +44,7 @@ import {
     bankscreen,
     tgscreen,
     cicdscreen,
-
+    citi
   } from "../assets";
   
   export const navLinks = [
@@ -89,9 +89,13 @@ import {
       icon: backend,
     },
     {
-      title: "Passionate DSA Problem-solver",
+      title: "System Design & Leetcode Nerd",
       icon: creator,
-    },
+    }
+    // {
+    //   title: "Passionate DSA Problem-solver",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -210,146 +214,224 @@ import {
 
     
   ]
-  const experiences = [
-    {
-      title: "Full-stack Software Developer",
-      company_name: "Citi Bank - Iris Software",
-      icon: web,
-      iconBg: "#383E56",
-      date: "April 2025 - June 2025",
-      points: [
-        "Developed backend support for dynamic column selector in Java, enabling analysts to customize dashboards on demand & reducing manual report setup by 40% for 500+ users.",
-        "Implemented advanced filtering & toggle features for financial metrics, improving dashboard flexibility & driving 30% faster analysis in enterprise reporting workflows."
-      ]
-      
-    },
-    {
-      title: "Full-stack Software Developer",
-      company_name: "San Diego State University",
-      icon: sdsu,
-      iconBg: "#383E56",
-      date: "August 2024 - April 2025",
-      points: [
-        "Built a high-performance research platform with React, Spring Boot, & MySQL, increasing user retention by 30%.",
-        "Enhanced application security with Spring Security (OAuth2, JWT, RBAC), reducing security breaches by 85%.",
-      ]
-      
-    },
-    {
-      title: "Software Developer",
-      company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
-      icon: lavin,
-      iconBg: "#383E56",
-      date: "May 2023 - May 2024",
-      points: [
-        "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%.",
-        "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users.",
-        "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests.",
-        "Integrated Web-to-Leads web form, facilitating the generation of 1000+ leads and seamlessly transferring lead data to Salesforce leveraging Apex Data Loader, ensuring data accuracy and streamlined workflow.",
-        "Formulated 450+ Visualforce email templates, increasing email response rates by 35%."
-        // "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%",
-        // "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users",
-        // "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests",
-        // "Mentored and led a team of 5 developers, implementing robust end to end testing using Jest, achieving 90% code coverage and reducing bug reports by 35%, while utilizing Git for version control and collaboration",
-        // "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
-        // "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
-      ]
-      
-    },
-    // {
-    //   title: "Sales Associate",
-    //   company_name: "Aztecs Shop - SDSU Bookstore",
-    //   icon: sdsu,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Feb 2023",
-    //   points: [
-    //     "Greeted customers and provided exceptional customer service",   
-    //     "Answered customer questions and offered recommendations based on customer preferences",
-    //     "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
-    //     "Provided feedback to management on customer preferences and buying trends",
-    //   ],
-    // },
 
-    {
-      title: "Full-stack Software Engineer",
-      company_name: "GreetGood Retail (E-commerce Startup)",
-      icon: threejs,
-      iconBg: "#383E56",
-      date: "June 2021 - July 2022",
-      points: [
-        "Spearheaded the development of a full-stack e-commerce platform using React, TypeScript, PostgreSQL, and Spring Boot, serving 50K+ users with a 35% increase in user engagement.",
-        "Engineered scalable microservices with Spring Boot & Docker, improving system fault tolerance by 70%.",
-        "Boosted database performance using Hibernate ORM & Kafka, improving throughput by 45% & reducing database load by 50%.",
-        "Implemented comprehensive unit and integration testing strategies using JUnit and Mockito in agile environments, following TDD principles and SDLC methodologies, reducing production issues by 40%.",
-      ]
-    },
+  // Experiences hidden on 24th August 2026
+  // const experiences = [
+  //   {
+  //     title: "Full-stack Software Developer",
+  //     company_name: "Citi Bank - Iris Software",
+  //     icon: web,
+  //     iconBg: "#383E56",
+  //     date: "April 2025 - June 2025",
+  //     points: [
+  //       "Developed backend support for dynamic column selector in Java, enabling analysts to customize dashboards on demand & reducing manual report setup by 40% for 500+ users.",
+  //       "Implemented advanced filtering & toggle features for financial metrics, improving dashboard flexibility & driving 30% faster analysis in enterprise reporting workflows."
+  //     ]
+      
+  //   },
+  //   {
+  //     title: "Full-stack Software Developer",
+  //     company_name: "San Diego State University",
+  //     icon: sdsu,
+  //     iconBg: "#383E56",
+  //     date: "August 2024 - April 2025",
+  //     points: [
+  //       "Built a high-performance research platform with React, Spring Boot, & MySQL, increasing user retention by 30%.",
+  //       "Enhanced application security with Spring Security (OAuth2, JWT, RBAC), reducing security breaches by 85%.",
+  //     ]
+      
+  //   },
+  //   {
+  //     title: "Software Developer",
+  //     company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
+  //     icon: lavin,
+  //     iconBg: "#383E56",
+  //     date: "May 2023 - May 2024",
+  //     points: [
+  //       "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%.",
+  //       "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users.",
+  //       "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests.",
+  //       "Integrated Web-to-Leads web form, facilitating the generation of 1000+ leads and seamlessly transferring lead data to Salesforce leveraging Apex Data Loader, ensuring data accuracy and streamlined workflow.",
+  //       "Formulated 450+ Visualforce email templates, increasing email response rates by 35%."
+  //       // "Built a high-performance web application using React, Redux, MongoDB & Node.js, boosting user engagement by 40%",
+  //       // "Spearheaded the development of responsive and scalable UI components, optimizing for performance and cross-browser compatibility, handling 10K+ daily users",
+  //       // "Developed scalable RESTful APIs with Node.js and Express, improving response times by 30% for 10K+ daily requests",
+  //       // "Mentored and led a team of 5 developers, implementing robust end to end testing using Jest, achieving 90% code coverage and reducing bug reports by 35%, while utilizing Git for version control and collaboration",
+  //       // "Strategically integrated Web-to-Leads web form, facilitating the generation of over 1000 leads and seamlessly transferred lead data to Salesforce utilizing Apex Data Loader, ensuring data accuracy and streamlined workflow.",
+  //       // "Formulated over 250 Visualforce email templates, significantly increasing email response rates by 35%."
+  //     ]
+      
+  //   },
+  //   // {
+  //   //   title: "Sales Associate",
+  //   //   company_name: "Aztecs Shop - SDSU Bookstore",
+  //   //   icon: sdsu,
+  //   //   iconBg: "#E6DEDD",
+  //   //   date: "Jan 2023 - Feb 2023",
+  //   //   points: [
+  //   //     "Greeted customers and provided exceptional customer service",   
+  //   //     "Answered customer questions and offered recommendations based on customer preferences",
+  //   //     "Maintained knowledge of current and upcoming releases, bestsellers, and popular genres",
+  //   //     "Provided feedback to management on customer preferences and buying trends",
+  //   //   ],
+  //   // },
 
-    {
-      title: "Software Engineer (Machine Learning) Intern",
-      company_name: "Eduvance",
-      icon: eduvance,
-      iconBg: "#383E56",
-      date: "June 2020 - July 2020",
-      points: [
-        "Analyzed and visualized data to classify Titanic passengers, achieving 82% accuracy, demonstrating expertise in data analysis, statistical modeling, and algorithm optimization",
-        "Deployed machine learning models on IBM Cloud utilizing IBM Watson, streamlining the deployment process, showcasing expertise in cloud-based machine learning solutions and Linux environments",
-      ]
-    },
+  //   {
+  //     title: "Full-stack Software Engineer",
+  //     company_name: "GreetGood Retail (E-commerce Startup)",
+  //     icon: threejs,
+  //     iconBg: "#383E56",
+  //     date: "June 2021 - July 2022",
+  //     points: [
+  //       "Spearheaded the development of a full-stack e-commerce platform using React, TypeScript, PostgreSQL, and Spring Boot, serving 50K+ users with a 35% increase in user engagement.",
+  //       "Engineered scalable microservices with Spring Boot & Docker, improving system fault tolerance by 70%.",
+  //       "Boosted database performance using Hibernate ORM & Kafka, improving throughput by 45% & reducing database load by 50%.",
+  //       "Implemented comprehensive unit and integration testing strategies using JUnit and Mockito in agile environments, following TDD principles and SDLC methodologies, reducing production issues by 40%.",
+  //     ]
+  //   },
 
-    {
-      title: "Data Analyst Intern",
-      company_name: "TakenMind Technologies",
-      icon: takenmind,
-      iconBg: "#383E56",
-      date: "September 2019 - November 2019",
-      points: [
-       "Collected and cleaned over 10,000 data points using Microsoft Excel, and leveraged Python libraries (NumPy, Pandas) to reduce data processing time by 30%",
-       "Created 5 insightful dashboards using Seaborn and Matplotlib, increasing stakeholder understanding of key metrics by 40%",
-       "Collaborated with a 6-member team on data presentation and reporting, supporting data-driven decisions that led to a 20% reduction in process bottlenecks",
-      ]
-    },
+  //   {
+  //     title: "Software Engineer (Machine Learning) Intern",
+  //     company_name: "Eduvance",
+  //     icon: eduvance,
+  //     iconBg: "#383E56",
+  //     date: "June 2020 - July 2020",
+  //     points: [
+  //       "Analyzed and visualized data to classify Titanic passengers, achieving 82% accuracy, demonstrating expertise in data analysis, statistical modeling, and algorithm optimization",
+  //       "Deployed machine learning models on IBM Cloud utilizing IBM Watson, streamlining the deployment process, showcasing expertise in cloud-based machine learning solutions and Linux environments",
+  //     ]
+  //   },
+
+  //   {
+  //     title: "Data Analyst Intern",
+  //     company_name: "TakenMind Technologies",
+  //     icon: takenmind,
+  //     iconBg: "#383E56",
+  //     date: "September 2019 - November 2019",
+  //     points: [
+  //      "Collected and cleaned over 10,000 data points using Microsoft Excel, and leveraged Python libraries (NumPy, Pandas) to reduce data processing time by 30%",
+  //      "Created 5 insightful dashboards using Seaborn and Matplotlib, increasing stakeholder understanding of key metrics by 40%",
+  //      "Collaborated with a 6-member team on data presentation and reporting, supporting data-driven decisions that led to a 20% reduction in process bottlenecks",
+  //     ]
+  //   },
 
     
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-  ];
+  //   // {
+  //   //   title: "React Native Developer",
+  //   //   company_name: "Tesla",
+  //   //   icon: tesla,
+  //   //   iconBg: "#E6DEDD",
+  //   //   date: "Jan 2021 - Feb 2022",
+  //   //   points: [
+  //   //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //   //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   //   ],
+  //   // },
+  //   // {
+  //   //   title: "Web Developer",
+  //   //   company_name: "Shopify",
+  //   //   icon: shopify,
+  //   //   iconBg: "#383E56",
+  //   //   date: "Jan 2022 - Jan 2023",
+  //   //   points: [
+  //   //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //   //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   //   ],
+  //   // },
+  //   // {
+  //   //   title: "Full stack Developer",
+  //   //   company_name: "Meta",
+  //   //   icon: meta,
+  //   //   iconBg: "#E6DEDD",
+  //   //   date: "Jan 2023 - Present",
+  //   //   points: [
+  //   //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //   //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   //   ],
+  //   // },
+  // ];
+
+
+  const experiences = [
+  {
+    title: "Production Support Engineer",
+    company_name: "LTIMindtree - Citi Bank",
+    icon: citi,
+    iconBg: "#383E56",
+    date: "September 2025 - Present",
+    points: [
+      "Triaged and resolved live incidents on a mission-critical financial platform live across 56+ global sites, maintaining 99.9% uptime by isolating root causes before they reach end users.",
+      "Scaled containerized workloads on AWS ECS and OpenShift pods based on load, right-sizing resource allocation and cutting infrastructure cost by 25%.",
+      "Remediated production issues through shell scripts, SQL, and configuration fixes, contributing to a 20% gain in application throughput through performance tuning.",
+      "Spearheaded 2 to 4 scheduled weekend release windows (RODs) per month, owning CI/CD pipeline validation and coordinating production rollouts across engineering teams."
+    ]
+  },
+  // {
+  //   title: "Software Developer",
+  //   company_name: "Leo Does IT Inc.",
+  //   icon: web,
+  //   iconBg: "#383E56",
+  //   date: "July 2025 - September 2025",
+  //   points: [
+  //     "Refined React components through usability testing and user feedback, boosting user engagement by 40% and cutting page load times by 25%.",
+  //     "Collaborated within a cross-functional Agile team, including stand-ups, sprint planning, and backlog grooming, accelerating feature delivery by 30%."
+  //   ]
+  // },
+
+  {
+    title: "Full-Stack Software Developer",
+    company_name: "Iris Software Inc. - Citi Bank",
+    icon: citi,
+    iconBg: "#383E56",
+    date: "April 2025 - June 2025",
+    points: [
+      "Translated Angular frontend components from Figma wireframes and interactive prototypes, increasing usability testing satisfaction scores by 20%.",
+      "Engineered Spring Boot backend services powering customizable dashboard column selection, reducing manual setup time by 40%."
+    ]
+  },
+  {
+    title: "Web Developer",
+    company_name: "San Diego State University",
+    icon: sdsu,
+    iconBg: "#383E56",
+    date: "August 2024 - April 2025",
+    points: [
+      "Architected and deployed a scalable research platform using React, Spring Boot, and MySQL, boosting user retention by 30%.",
+      "Hardened application security with Spring Security (OAuth2, JWT, RBAC), reducing security breaches by 85%."
+    ]
+  },
+  {
+    title: "Software Developer",
+    company_name: "Lavin Entrepreneurship Center - SDSU Research Foundation",
+    icon: lavin,
+    iconBg: "#383E56",
+    date: "May 2023 - May 2024",
+    points: [
+      "Developed and scaled a high-performance web application using React and Redux, backed by Node.js and MongoDB, serving 5K+ daily users and boosting engagement by 40%.",
+      "Delivered RESTful APIs with Node.js and Express handling 20K+ daily requests from that user base, improving response times by 30%.",
+      "Mentored and led a team of 5 developers, implementing end to end testing with Jest that achieved 90% code coverage and cut bug reports by 35%.",
+      "Integrated Salesforce lead generation with Apex automation, capturing 5,000+ new leads while improving data transfer accuracy."
+    ]
+  },
+  {
+    title: "Full-Stack Software Engineer",
+    company_name: "GreetGood Retail",
+    icon: threejs,
+    iconBg: "#383E56",
+    date: "July 2021 - July 2022",
+    points: [
+      "Constructed and tested Spring Boot REST APIs for order and payment workflows on a Kafka driven event architecture, boosting transaction efficiency by 90%.",
+      "Optimized catalog and order tracking UI/UX using multithreading, caching, and query tuning, cutting load times from 10s to under 100ms.",
+      "Designed service boundaries across order, payment, and inventory services so a failure in one wouldn't cascade to the others, supporting 500+ concurrent users with checkout response times under 150ms."
+    ]
+  }
+];
   
   // const testimonials = [
   //   {

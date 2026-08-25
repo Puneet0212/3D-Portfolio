@@ -1,18 +1,34 @@
 import { PointMaterial, Points, Preload } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
-import * as random from 'maath/random/dist/maath-random.esm';
-import React, { Suspense, useRef } from 'react'
+import React, { Suspense, useRef, useMemo } from 'react'
+
+const generateSpherePoints = (count, radius) => {
+  const positions = new Float32Array(count * 3);
+  for (let i = 0; i < count; i++) {
+    let x, y, z, lengthSq;
+    do {
+      x = (Math.random() * 2 - 1);
+      y = (Math.random() * 2 - 1);
+      z = (Math.random() * 2 - 1);
+      lengthSq = x * x + y * y + z * z;
+    } while (lengthSq === 0 || lengthSq > 1);
+
+    const scale = radius / Math.sqrt(lengthSq) * Math.cbrt(Math.random());
+    positions[i * 3] = x * scale;
+    positions[i * 3 + 1] = y * scale;
+    positions[i * 3 + 2] = z * scale;
+  }
+  return positions;
+};
 
 const Stars = (props) => {
+  const ref = useRef();
+  const sphere = useMemo(() => generateSpherePoints(5000, 1.2), []);
 
-const ref = useRef();
-
-const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 });
-
-useFrame((state, delta) => {
-  ref.current.rotation.x -= delta / 10;
-  ref.current.rotation.y -= delta / 15;
-})
+  useFrame((state, delta) => {
+    ref.current.rotation.x -= delta / 10;
+    ref.current.rotation.y -= delta / 15;
+  })
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
@@ -36,7 +52,6 @@ const StarsCanvas = () => {
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>
